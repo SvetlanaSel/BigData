@@ -21,6 +21,7 @@ Cравнить производительность и эффективност
 !pip install pandas numpy pymongo psycopg2-binary sqlalchemy matplotlib seaborn
 ```
 Результат выполнения
+
 <img width="897" height="429" alt="image" src="https://github.com/user-attachments/assets/92c097c6-c0c6-4dc0-9bab-80141687d9df" />
 ### Импорт библиотек:
 ```
@@ -117,6 +118,7 @@ print(webevents_df['event_type'].value_counts())
 print(f"\nПериод данных: от {webevents_df['timestamp'].min()} до {webevents_df['timestamp'].max()}")
 ```
 Результат выполнения
+
 <img width="636" height="403" alt="image" src="https://github.com/user-attachments/assets/9d04e066-eb16-44d9-a291-0ee35a66da9a" />
 ### 4. Сохранение данных в CSV файлы для дальнейшего использования
 ```
@@ -126,6 +128,7 @@ print("✅ Данные сохранены в CSV файлы:")
 print("- webevents.csv")
 ```
 Результат выполнения
+
 <img width="381" height="70" alt="image" src="https://github.com/user-attachments/assets/42deab8e-8388-49b5-a4df-8eec8cd4bcd1" />
 ### 5. Анализ распределения данных
 ```
@@ -155,6 +158,7 @@ for date, count in list(daily_activity.items())[:5]:
     print(f"  {date}: {count} событий")
 ```
 Результат выполнения
+
 <img width="541" height="523" alt="image" src="https://github.com/user-attachments/assets/cde3cc0c-7002-45ff-8d11-fbfc365313e1" />
 ### 6. Подключение к MongoDB
 ```
@@ -216,6 +220,7 @@ else:
     print("❌ Пропуск операций с MongoDB из-за ошибки подключения")
 ```
 Результат выполнения
+
 <img width="660" height="201" alt="image" src="https://github.com/user-attachments/assets/f0c2f07a-f9c3-4cdb-b097-7d2db5fd44d3" />
 ### 7. Подключение к PostgreSQL
 ```
@@ -283,6 +288,7 @@ else:
     print("❌ Пропуск операций с PostgreSQL из-за ошибки подключения")
 ```
 Результат выполнения
+
 <img width="768" height="267" alt="image" src="https://github.com/user-attachments/assets/503ef96a-2870-4e3d-b772-1b02cb97b146" />
 
 ### 8. Агрегация в PostgreSQL
@@ -419,6 +425,7 @@ else:
     print("❌ Не удалось выполнить агрегацию данных")
 ```
 Результат выполнения
+
 <img width="567" height="538" alt="image" src="https://github.com/user-attachments/assets/f913d8ca-9a25-4444-8647-8846dc430429" />
 ### 9. Агрегация в MongoDB
 ```
@@ -591,6 +598,7 @@ else:
     print("❌ Не удалось выполнить агрегацию данных в MongoDB")
 ```
 Результат выполнения
+
 <img width="710" height="535" alt="image" src="https://github.com/user-attachments/assets/f7c66af5-f034-4e42-9ba2-1067f3af113b" />
 ### 10. 
 ```
@@ -781,6 +789,7 @@ print_analytical_report_analysis(performance_data)
 print(f"\nТестирование завершено!")
 ```
 Результат выполнения
+
 <img width="848" height="293" alt="image" src="https://github.com/user-attachments/assets/a4484681-98b0-4287-bb0f-cf7e856253b9" />
 <img width="874" height="367" alt="image" src="https://github.com/user-attachments/assets/94eea8fe-e491-4fc8-b615-2579c2c94219" />
 <img width="778" height="515" alt="image" src="https://github.com/user-attachments/assets/15a59992-8f47-4bfe-b696-2e698e4306b4" />
