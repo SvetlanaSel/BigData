@@ -606,7 +606,7 @@ else:
 
 <img width="710" height="535" alt="image" src="https://github.com/user-attachments/assets/f7c66af5-f034-4e42-9ba2-1067f3af113b" />
 
-### 10. 
+### 10. Итоговое тестирование и выводы
 ```
 import time
 import matplotlib.pyplot as plt
