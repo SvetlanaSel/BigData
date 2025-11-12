@@ -21,7 +21,6 @@ Cравнить производительность и эффективност
 !pip install pandas numpy pymongo psycopg2-binary sqlalchemy matplotlib seaborn
 ```
 Результат выполнения
-
 <img width="897" height="429" alt="image" src="https://github.com/user-attachments/assets/92c097c6-c0c6-4dc0-9bab-80141687d9df" />
 ### Импорт библиотек:
 ```
