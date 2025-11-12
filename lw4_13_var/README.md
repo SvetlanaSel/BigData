@@ -119,6 +119,7 @@ print(f"\nПериод данных: от {webevents_df['timestamp'].min()} до
 Результат выполнения
 
 <img width="636" height="403" alt="image" src="https://github.com/user-attachments/assets/9d04e066-eb16-44d9-a291-0ee35a66da9a" />
+
 ### 4. Сохранение данных в CSV файлы для дальнейшего использования
 ```
 webevents_df.to_csv('webevents.csv', index=False)
@@ -129,6 +130,7 @@ print("- webevents.csv")
 Результат выполнения
 
 <img width="381" height="70" alt="image" src="https://github.com/user-attachments/assets/42deab8e-8388-49b5-a4df-8eec8cd4bcd1" />
+
 ### 5. Анализ распределения данных
 ```
 print(f"\n Анализ данных:")
@@ -159,6 +161,7 @@ for date, count in list(daily_activity.items())[:5]:
 Результат выполнения
 
 <img width="541" height="523" alt="image" src="https://github.com/user-attachments/assets/cde3cc0c-7002-45ff-8d11-fbfc365313e1" />
+
 ### 6. Подключение к MongoDB
 ```
 try:
@@ -221,6 +224,7 @@ else:
 Результат выполнения
 
 <img width="660" height="201" alt="image" src="https://github.com/user-attachments/assets/f0c2f07a-f9c3-4cdb-b097-7d2db5fd44d3" />
+
 ### 7. Подключение к PostgreSQL
 ```
 pg_conn_params = {
@@ -289,6 +293,7 @@ else:
 Результат выполнения
 
 <img width="768" height="267" alt="image" src="https://github.com/user-attachments/assets/503ef96a-2870-4e3d-b772-1b02cb97b146" />
+
 
 ### 8. Агрегация в PostgreSQL
 ```
@@ -426,6 +431,7 @@ else:
 Результат выполнения
 
 <img width="567" height="538" alt="image" src="https://github.com/user-attachments/assets/f913d8ca-9a25-4444-8647-8846dc430429" />
+
 ### 9. Агрегация в MongoDB
 ```
 # Функция для группировки событий по пользователям и типам в MongoDB
@@ -599,6 +605,7 @@ else:
 Результат выполнения
 
 <img width="710" height="535" alt="image" src="https://github.com/user-attachments/assets/f7c66af5-f034-4e42-9ba2-1067f3af113b" />
+
 ### 10. 
 ```
 import time
