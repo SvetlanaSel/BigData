@@ -270,9 +270,11 @@ bash scripts/start_jupyter.sh
 
 **Проверка:** 
 
+<img width="937" height="603" alt="image" src="https://github.com/user-attachments/assets/8b0e01cf-62fe-4c1a-a8f1-1beee62e3b2a" />
 
 
 **Проект готов к использованию! 🎉**
+
 
 
 
