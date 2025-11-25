@@ -11,3 +11,6 @@
 
 ## Тема 4. Базовые подходы хранения больших данных
 [Лабораторная работа 4.1](https://github.com/SvetlanaSel/BigData/tree/main/lw4_13_var)
+
+## Тема 5. Начало работы с большим объемом данных: Hadoop, MapReduce
+[Лабораторная работа 5.1](https://github.com/SvetlanaSel/BigData/tree/main/lw_5_1)
