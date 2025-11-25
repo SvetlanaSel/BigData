@@ -167,7 +167,7 @@ hdfs dfs -ls -h /user/hadoop/input/
 hdfs dfs -du -h /user/hadoop/input/
 ```
 
-**Проверка.** Файл `movies.csv` должен быть в HDFS. 
+**Проверка.** Файл `movie.csv` должен быть в HDFS. 
 
 <img width="794" height="249" alt="image" src="https://github.com/user-attachments/assets/a30f526e-401e-40ad-8f37-2d9a2d6276d7" />
 
@@ -176,7 +176,7 @@ hdfs dfs -du -h /user/hadoop/input/
 
 ```bash
 # Просмотреть первые строки файла из HDFS
-hdfs dfs -cat /user/hadoop/input/movies.csv | head -20
+hdfs dfs -cat /user/hadoop/input/movie.csv | head -20
 
 # Проверить статистику HDFS
 hdfs dfsadmin -report
@@ -190,7 +190,7 @@ hdfs dfsadmin -report
 ```
 
 - **HDFS NameNode UI:** http://localhost:9870
-  - Навигация. Browse the file system → `/user/hadoop/input/` → `database.csv`
+  - Навигация. Browse the file system → `/user/hadoop/input/` → `movie.csv`
   
 - **YARN ResourceManager UI:** http://localhost:8088
 
@@ -212,9 +212,7 @@ cd /opt/scripts
 # Запустить анализ
 python3 analyze_pandas.py
 
-# Проверить результат
-cat ../results/magnitude_by_type.csv
-head -10 ../results/magnitude_by_type.csv
+
 ```
 
 **Проверка результата:** 
@@ -237,9 +235,6 @@ cd /opt/scripts
 # Запустить анализ через Spark
 python3 analyze_spark.py
 
-# Проверить результаты в HDFS
-hdfs dfs -ls /user/hadoop/output
-hdfs dfs -cat /user/hadoop/output/magnitude_by_type/part-00000 | head -20
 ```
 
 **Проверка результата.** 
@@ -264,7 +259,7 @@ bash scripts/start_jupyter.sh
 # Открыть браузер: http://localhost:8888
 # (доступ без токена - открывается сразу)
 
-# Открыть notebook: notebooks/earthquake_analysis.ipynb
+# Открыть notebook
 # Выполнить все ячейки (Run All)
 ```
 
@@ -274,6 +269,7 @@ bash scripts/start_jupyter.sh
 
 
 **Проект готов к использованию! 🎉**
+
 
 
 
