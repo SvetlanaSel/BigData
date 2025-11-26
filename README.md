@@ -16,4 +16,7 @@
 [Лабораторная работа 5.1](https://github.com/SvetlanaSel/BigData/tree/main/lw_5_1)
 
 ## Тема 6. Механизм для обработки больших объемов данных - Apache Spark
-[Лабораторная работа 6.1]()
+
+### Лабораторная работа 6.1 
+
+- [Файл advanced_pyspark_for_exploratory_data_analysis_student.ipynb](https://github.com/SvetlanaSel/BigData/blob/main/lab6/advanced_pyspark_for_exploratory_data_analysis_student%20(3).ipynb)
