@@ -4,3 +4,21 @@
 - Познакомиться с понятием «большие данные» и способами их обработки;
 - Познакомиться с инструментом Apache Spark и возможностями, которые он предоставляет для обработки больших данных.
 - Получить навыки выполнения разведочного анализа данных использованием pyspark.
+
+## Выполнение работы в Google Colab
+### 1. Инициализация платформы Spark и загрузка данных в фрейм данных Spark
+Импорт модулей, не связанных с PySpark и подключение к Гугл диску:
+
+<img width="1010" height="704" alt="image" src="https://github.com/user-attachments/assets/c1e7a023-522f-4e54-b209-c708bfa597ff" />
+
+
+Импорт модулей, связанных с PySpark:
+
+<img width="869" height="600" alt="image" src="https://github.com/user-attachments/assets/6ecd7e4f-ef30-4309-9cc6-0d84499e7fd3" />
+
+### 2. Обзор набора данных
+
+Обзор данных и столбцов:
+
+<img width="1060" height="685" alt="image" src="https://github.com/user-attachments/assets/50a7f176-8313-4521-b349-a245e9de61b9" />
+
