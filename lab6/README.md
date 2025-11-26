@@ -71,4 +71,56 @@
 
 <img width="929" height="586" alt="image" src="https://github.com/user-attachments/assets/b7a9cb55-ffa4-4e8c-bbe1-0573859a9fbd" />
 
+Найдем топ-5 видов спорта по числу тренировок:
+
+<img width="1067" height="724" alt="image" src="https://github.com/user-attachments/assets/d74e47e7-a414-4b60-832c-bedc4f90655c" />
+
+<img width="853" height="502" alt="image" src="https://github.com/user-attachments/assets/132f7051-c4fe-4f77-88d3-f61efabed506" />
+
+<img width="1034" height="374" alt="image" src="https://github.com/user-attachments/assets/48c04b0a-f052-423b-bff9-6ada9259fed9" />
+
+Узнаем, сколько людей занималось более чем одним видом спорта:
+
+<img width="971" height="413" alt="image" src="https://github.com/user-attachments/assets/f79f9ccc-52d7-45b4-82e0-df41e162b6bb" />
+
+Построим диаграмму:
+
+
+<img width="1032" height="548" alt="image" src="https://github.com/user-attachments/assets/d2fb5b6a-e75a-4ba3-ad2f-5eaf2c1d6e66" />
+
+Распределение количества рекордов за тренировку:
+
+<img width="1332" height="315" alt="image" src="https://github.com/user-attachments/assets/184bf5e1-0837-4cd4-854e-75ebbe417ce4" />
+
+Результат:
+
+<img width="1566" height="400" alt="image" src="https://github.com/user-attachments/assets/8c034b55-450e-4a0e-b235-2d54f0a52447" />
+
+<img width="1552" height="681" alt="image" src="https://github.com/user-attachments/assets/d31d5c29-8b2f-4656-b8b1-bc654ead9e4d" />
+
+Посмотрим, сколько пользователей выполнило более 10 тренировок:
+
+<img width="1063" height="489" alt="image" src="https://github.com/user-attachments/assets/516c7823-57f2-4d4c-8ac2-4b0c20a9e621" />
+
+
+### 7. Pyspark UDF
+
+<img width="1585" height="249" alt="image" src="https://github.com/user-attachments/assets/7d5eb667-5ff3-4491-8e9f-7044f3c76129" />
+
+<img width="973" height="516" alt="image" src="https://github.com/user-attachments/assets/1204d50b-d3f2-44ad-9f32-aff2426846b0" />
+
+<img width="1012" height="200" alt="image" src="https://github.com/user-attachments/assets/f9778416-b961-42a6-b1a9-a05ffe0bce51" />
+
+Теперь посмотрим на продолжительность каждой тренировки (в минутах).
+
+<img width="781" height="136" alt="image" src="https://github.com/user-attachments/assets/b8849672-1edc-4893-ac4f-2860dd3a2f64" />
+
+Построим графики продолжительности тренировок:
+
+<img width="1052" height="328" alt="image" src="https://github.com/user-attachments/assets/1465ff71-a279-42c8-878e-16400fa6f760" />
+
+Результат:
+
+<img width="1557" height="702" alt="image" src="https://github.com/user-attachments/assets/dd2c8f5a-c947-483f-8d34-9f7bc5a29dcc" />
+
 
