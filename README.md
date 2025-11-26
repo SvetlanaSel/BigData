@@ -19,4 +19,5 @@
 
 ### Лабораторная работа 6.1 
 
+- [Отчет]()
 - [Файл advanced_pyspark_for_exploratory_data_analysis_student.ipynb](https://github.com/SvetlanaSel/BigData/blob/main/lab6/advanced_pyspark_for_exploratory_data_analysis_student%20(3).ipynb)
