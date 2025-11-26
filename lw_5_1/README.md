@@ -119,7 +119,7 @@ docker compose exec hadoop bash
 # Проверить, что вы внутри контейнера
 hostname  # должен показать: hadoop
 ```
-<img width="805" height="240" alt="image" src="https://github.com/user-attachments/assets/fc09b72c-4fe3-4b26-b80c-f4c1e3117726" />
+<img width="974" height="84" alt="image" src="https://github.com/user-attachments/assets/48c980f2-c980-4fe8-b2e2-09450b77c5d3" />
 
 
 ### Шаг 4. Проверка компонентов Hadoop
@@ -136,6 +136,8 @@ jps
 # - NodeManager
 # - Jps
 ```
+<img width="805" height="240" alt="image" src="https://github.com/user-attachments/assets/fc09b72c-4fe3-4b26-b80c-f4c1e3117726" />
+
 
 ---
 
@@ -153,6 +155,9 @@ hdfs dfs -ls /user/hadoop/
 ```
 
 **Проверка.** Должны увидеть директории `input` и `output`.
+
+<img width="974" height="171" alt="image" src="https://github.com/user-attachments/assets/8698a4f7-e23a-4ea2-a1bb-fbde48b0be9e" />
+
 
 ### Шаг 2. Загрузка данных
 
@@ -269,6 +274,7 @@ bash scripts/start_jupyter.sh
 
 
 **Проект готов к использованию! 🎉**
+
 
 
 
