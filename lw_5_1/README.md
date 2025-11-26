@@ -100,14 +100,16 @@ ls -la notebooks/
 # docker compose up --build # if new data rewrite database.csv
 docker compose up -d
 
-<img width="745" height="166" alt="image" src="https://github.com/user-attachments/assets/d8d560e8-5a29-41a8-8957-4ea99dd22f3e" />
 
 # Просмотреть логи (подождите 60-90 секунд)
 docker compose logs -f hadoop
 
-<img width="808" height="118" alt="image" src="https://github.com/user-attachments/assets/abc9ecf9-9e1b-4d02-ba0a-4666455e8c0d" />
 
 ```
+<img width="745" height="166" alt="image" src="https://github.com/user-attachments/assets/d8d560e8-5a29-41a8-8957-4ea99dd22f3e" />
+
+
+<img width="808" height="118" alt="image" src="https://github.com/user-attachments/assets/abc9ecf9-9e1b-4d02-ba0a-4666455e8c0d" />
 
 
 ### Шаг 3. Подключение к контейнеру
@@ -274,6 +276,7 @@ bash scripts/start_jupyter.sh
 
 
 **Проект готов к использованию! 🎉**
+
 
 
 
